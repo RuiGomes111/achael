@@ -8,7 +8,7 @@ export default function Header() {
   
 
   return (
-    <header className="bg-[#D0D3D7]/95 backdrop-blur-sm flex items-center p-3 justify-between fixed w-full top-0 z-50 shadow-md">
+    <header className="bg-[#d0d3d7ae]/95 backdrop-blur-sm flex items-center p-3 justify-between fixed w-full top-0 z-50 shadow-md">
       {/* LOGO SECTION */}
       <div className="flex items-center gap-3">
         <img className="rounded shadow-sm" src={LogoAchael} alt="Achael Logo" width={40} />
@@ -19,7 +19,7 @@ export default function Header() {
       <ul className="hidden md:flex gap-8 text-gray-600 font-semibold transition-all">
         <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#">Início</a></li>
         <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#service">Serviços</a></li>
-        <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#">Contacto</a></li>
+        <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#contato">Contacto</a></li>
       </ul>
 
       {/* DESKTOP BUTTON (Hidden on Mobile) */}
@@ -42,8 +42,8 @@ export default function Header() {
       `}>
         <ul className="flex flex-col p-5 gap-4 text-gray-700 font-bold">
           <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Início</a></li>
-          <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Serviços</a></li>
-          <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Contacto</a></li>
+          <li className="hover:text-[#EF6320]"><a href="#service" onClick={() => setIsOpen(false)}>Serviços</a></li>
+          <li className="hover:text-[#EF6320]"><a href="#contato" onClick={() => setIsOpen(false)}>Contacto</a></li>
           <a href="tel:+244942349797" className="w-full mt-2 rounded-xl p-3 bg-linear-to-r from-[#F06121] to-[#1C4057] text-white flex items-center justify-center gap-2 animate-pulse">
             <FontAwesomeIcon icon={faPhone} /> Ligar Agora
           </a>

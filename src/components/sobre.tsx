@@ -64,7 +64,7 @@ export default function Sobre() {
             Atendimento personalizado
           </p>
         </div>
-        <a href="#contato" className="bg-[#25D366] text-white py-2 px-4 rounded-lg hover:bg-[#25D366]/90 transition-colors duration-300 w-max mt-5 inline-flex items-center gap-2 hover:scale-105 transform cursor-pointer">
+        <a href="https://wa.me/244939340305" target="blanck" className="bg-[#25D366] text-white py-2 px-4 rounded-lg hover:bg-[#25D366]/90 transition-colors duration-300 w-max mt-5 inline-flex items-center gap-2 hover:scale-105 transform cursor-pointer">
           <FaWhatsapp />
           Fale Connosco ➪
         </a>

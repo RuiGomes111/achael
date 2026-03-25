@@ -51,7 +51,7 @@ export default function Contato() {
 
           <div className="flex items-center gap-4 bg-white p-5 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
           <div className="bg-[#F06121]/10 p-4 rounded-xl flex items-center justify-center">
-            <CiLocationOn className="text-[#F06121] text-xl" />
+            <IoTimeOutline className="text-[#F06121] text-xl" />
           </div>
 
           <div className="text-left">
