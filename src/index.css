@@ -9,3 +9,7 @@
   display: inline-block; /* Essential for transforms to work */
   animation: shake-x 1.5s ease-in-out infinite;
 }
+
+html {
+scroll-behavior: smooth;
+}

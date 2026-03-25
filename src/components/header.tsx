@@ -5,6 +5,7 @@ import LogoAchael from "../assets/img/achael.logo.jpeg";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <header className="bg-[#D0D3D7]/95 backdrop-blur-sm flex items-center p-3 justify-between fixed w-full top-0 z-50 shadow-md">
@@ -17,7 +18,7 @@ export default function Header() {
       {/* DESKTOP NAVIGATION (Hidden on Mobile) */}
       <ul className="hidden md:flex gap-8 text-gray-600 font-semibold transition-all">
         <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#">Início</a></li>
-        <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#">Serviços</a></li>
+        <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#service">Serviços</a></li>
         <li className="hover:text-[#EF6320] cursor-pointer transition-colors"><a href="#">Contacto</a></li>
       </ul>
 
@@ -43,9 +44,9 @@ export default function Header() {
           <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Início</a></li>
           <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Serviços</a></li>
           <li className="hover:text-[#EF6320]"><a href="#" onClick={() => setIsOpen(false)}>Contacto</a></li>
-          <button className="w-full mt-2 rounded-xl p-3 bg-linear-to-r from-[#F06121] to-[#1C4057] text-white flex items-center justify-center gap-2 animate-pulse">
+          <a href="tel:+244942349797" className="w-full mt-2 rounded-xl p-3 bg-linear-to-r from-[#F06121] to-[#1C4057] text-white flex items-center justify-center gap-2 animate-pulse">
             <FontAwesomeIcon icon={faPhone} /> Ligar Agora
-          </button>
+          </a>
         </ul>
       </div>
     </header>

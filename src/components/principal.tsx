@@ -34,12 +34,12 @@ function Principal() {
 
         {/* BUTTONS - Stack on mobile (flex-col), side-by-side on desktop (sm:flex-row) */}
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
-          <button className="group w-full sm:w-auto justify-center bg-linear-to-r from-[#F06121] to-[#1C4057] text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:scale-105 transition-transform cursor-pointer">
+          <a href="#service" className="group w-full sm:w-auto justify-center bg-linear-to-r from-[#F06121] to-[#1C4057] text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:scale-105 transition-transform cursor-pointer">
             ver serviços
             <span className="transition-transform duration-300 group-hover:translate-x-2 animate-shake-horizontal text-xl">
               ➪
             </span>
-          </button>
+          </a>
 
           <button className="w-full sm:w-auto justify-center border border-white/20 text-white/90 px-8 py-4 rounded-xl font-bold hover:border-[#EF6220] hover:bg-[#EF6220]/10 hover:scale-105 transition-transform cursor-pointer flex items-center gap-3">
             <FontAwesomeIcon icon={faPhone} className="text-[#F06121]" />

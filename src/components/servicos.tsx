@@ -14,20 +14,21 @@ export default function Servicos() {
   ];
 
   return (
-    <section className="flex flex-col items-center py-16 px-6 bg-gray-50">
+    <section id="service" className="flex flex-col items-center py-25 px-6 bg-gray-50">
       <div className="text-center mb-12">
         <h1 className="text-[#F06121] font-bold tracking-[0.2em] text-sm mb-2">O QUE FAZEMOS</h1>
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800">Os Nossos Serviços</h2>
+        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 ">Os Nossos Serviços</h2>
+        <div className="mx-auto mt-4 h-1 w-16 bg-gradient-to-r from-[#F06121] to-[#1C4057] rounded-full"></div>
       </div>
 
-      {/* Grid com largura aumentada para 1280px (7xl) */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl w-full ">
         {services.map((service, index) => (
           <div 
             key={index} 
             className="flex flex-col bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:text-[#F06121] group cursor-pointer"
           >
-            {/* Altura da imagem aumentada para h-52 (208px) */}
+            
             <div className="h-52 w-full overflow-hidden">
               <img 
                 src={service.imagem} 
@@ -41,7 +42,7 @@ export default function Servicos() {
               <h3 className="text-2xl font-bold text-gray-800 group-hover:text-[#F06121]">
                 {service.title}
               </h3>
-              <div className="w-12 h-1 bg-[#F06121] mx-auto rounded-full"></div> {/* Detalhe visual */}
+              <div className="w-12 h-1 bg-[#F06121] mx-auto rounded-full"></div> 
               <p className="text-gray-600 text-base leading-relaxed">
                 {service.description}
               </p>
