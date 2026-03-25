@@ -3,7 +3,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Principal() {
   return (
-    <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-start px-6 sm:px-10 md:px-20 py-20 md:py-0 mt-[68px]">
+    <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-start px-6 sm:px-10 md:px-20 py-20 md:py-0 mt-[68px] bg-white">
       <div className="absolute inset-0 bg-[url('./assets/img/hero-bg-5mfkv4hf.jpg')] bg-cover bg-center"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-[#010f24]/90 via-[#010f24]/70 to-[#010f24]/50"></div>
       {/* CONTENT - Responsive width and alignment */}

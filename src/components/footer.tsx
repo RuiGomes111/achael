@@ -50,10 +50,10 @@ export default function Footer() {
 
       </div>
 
-      {/* Divider */}
+    
       <div className="border-t border-gray-700 my-8"></div>
 
-      {/* Bottom */}
+     
       <div className="text-center text-gray-500 text-sm">
         &copy; {new Date().getFullYear()} ACHAEL — Todos os direitos reservados.
       </div>

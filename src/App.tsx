@@ -5,19 +5,19 @@ import Sobre from "./components/sobre";
 import Contato from "./components/contacto";
 import Footer from "./components/footer";
 
+
 function App() {
-  return (
-    <main className="bg-[#F5F5F5] min-h-screen">
+  return (    
+
+    <main className="bg-[#F0F2F5] min-h-screen">
       <Header />
       <Principal />
       <Servicos />
       <Sobre />
       <Contato />
-      <Footer />
-
-     
-      
+      <Footer />      
     </main>
+    
 
   );
 }
