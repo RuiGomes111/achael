@@ -23,12 +23,12 @@ export default function Footer() {
           <div className="flex flex-col gap-3 text-gray-400 text-sm">
             
             <span className="flex items-center gap-3 hover:text-white transition">
-              <FaPhoneAlt className="text-[#F06121]" />
+              <FaPhoneAlt color="#F06121" />
               939 340 305
             </span>
 
             <span className="flex items-center gap-3 hover:text-white transition">
-              <MdOutlineMailOutline className="text-[#F06121]" />
+              <MdOutlineMailOutline color="#F06121" />
               achael04@hotmail.com
             </span>
 
@@ -43,7 +43,7 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Localização</h2>
           <span className="flex items-start gap-3 text-gray-400 text-sm leading-relaxed">
-            <CiLocationOn className="text-[#F06121] mt-1" />
+            <CiLocationOn color="#F06121" />
             Rua Padre Costa, Casa Nº 7965
           </span>
         </div>
