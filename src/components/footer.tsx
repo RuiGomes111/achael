@@ -1,6 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { CiLocationOn } from "react-icons/ci";
 import { AiFillFacebook } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa6";
 
