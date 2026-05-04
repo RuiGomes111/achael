@@ -1,8 +1,9 @@
-import assistencia from "../assets/img/workspace-nP1JMOEp.jpeg";
+import assistencia from "../assets/img/tec.jpeg";
 import impressora from "../assets/img/service-bulkink-D2WZ1Pf-.jpg";
 import cctv from "../assets/img/service-cctv-DrQgE8Jd.jpg";
 import network from "../assets/img/service-network-CWNhAgEL.jpg";
-
+import bulkink from "../assets/img/bulk.jpeg";
+import materiais from "../assets/img/materiais.jpeg";
 export default function Servicos() {
   const services = [
     {
@@ -33,13 +34,13 @@ export default function Servicos() {
       title: "Sistema Bulk Ink",
       description:
         "Instalação de sistema bulk ink em diversos modelos de impressoras.",
-      imagem: impressora,
+      imagem: bulkink,
     },
     {
       title: "Venda de Materiais",
       description:
         "Tintas bulk ink, sublimáticas, cartuchos, toners, impressoras e computadores reciclados.",
-      imagem: assistencia,
+      imagem: materiais,
     },
   ];
 

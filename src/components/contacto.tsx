@@ -29,7 +29,7 @@ export default function Contato() {
         {cards.map((card, idx) => (
           <div
             key={idx}
-            data-aos={idx % 2 === 0 ? "fade-right" : "fade-left"} // alterna left e right
+            data-aos={idx % 2 === 0 ? "fade-right" : "fade-left"} 
             className="flex items-center gap-4 bg-white p-4 md:p-4 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 min-h-[80px]"
           >
             <div className="bg-[#F06121]/10 p-3 md:p-4 rounded-xl flex items-center justify-center flex-shrink-0">

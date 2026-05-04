@@ -6,6 +6,7 @@ import Contato from "./components/contacto";
 import Footer from "./components/footer";
 
 
+
 function App() {
   return (    
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Principal />
       <Servicos />
+      
       <Sobre />
       <Contato />
       <Footer />      
